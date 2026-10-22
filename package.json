@@ -3,6 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "author": {
+    "name": "Samuel Luc",
+    "email": "ndris219@gmail.com"
+  },
+  "imports": {
+    "#aegis/cache": {
+      "types": "./src/aegis/cache/index.ts",
+      "default": "./dist/aegis/cache/index.js"
+    },
+    "#aegis/queues": {
+      "types": "./src/aegis/queues/index.ts",
+      "default": "./dist/aegis/queues/index.js"
+    }
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
