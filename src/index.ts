@@ -1,1 +1,3 @@
-console.log('Hello TypeScript');
+import dotenv from "dotenv";
+
+dotenv.config();
